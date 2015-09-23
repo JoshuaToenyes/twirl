@@ -1,4 +1,4 @@
-(function () {
+(function ($) {
 
   // The element the user clicks to toggle open/close.
   var TRIGGER_ELEMENT_SELECTOR = ".twirl";
@@ -70,4 +70,4 @@
     }, RESIZE_TIME);
   });
 
-})();
+})(jQuery);
